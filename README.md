@@ -1,8 +1,8 @@
-# go-cloudwatchlogs
+# go-cloudwatchlogs/awslogs Go package
 
-Before using the 'awslogs' package function please export the environment variable AWS_SDK_LOAD_CONFIG=1 or go to get more details and
+`Before using the 'awslogs' package function please export the environment variable AWS_SDK_LOAD_CONFIG=1 or go to get more details and
 alternative configurations: https://github.com/aws/aws-sdk-go.
-"The SDK has support for the shared configuration file (~/.aws/config). This support can be enabled by setting the environment variable, "AWS_SDK_LOAD_CONFIG=1", or enabling the feature in code when creating a Session via the Option's SharedConfigState parameter."
+"The SDK has support for the shared configuration file (~/.aws/config). This support can be enabled by setting the environment variable, "AWS_SDK_LOAD_CONFIG=1", or enabling the feature in code when creating a Session via the Option's SharedConfigState parameter." `
 
 The awslogs go package provides a function that you can use to post log messages (or any other string of interest) to AWS Cloudwatch.
 
