@@ -1,4 +1,4 @@
-# go-cloudwatchlogs/awslogs Go package
+# Go package: go-cloudwatchlogs/awslogs 
 
 `Before using the 'awslogs' package function please export the environment variable AWS_SDK_LOAD_CONFIG=1 or go to get more details and
 alternative configurations on https://github.com/aws/aws-sdk-go:
